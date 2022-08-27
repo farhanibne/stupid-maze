@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Stupid Maze</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<svg hidden id="wall" width="32" height="32"><path fill="#f52" d="M0 1h21v15H0zM22 1h10v15H22zM0 17h11v15H0zM12 17h20v15H12z"/></svg>
+<svg hidden id="poo" width="32" height="32">
+  <path fill="#654" d="M8 30 q-4 0-4-4q0-4 4-4h16q4 0 4 4 q0 4 -4 4z M10 21.5q-3 0-3-3q0 -3 3-3h12q3 0 3 3q0 3-3 3zM12 15q-2 0-2-2q0-2 2-2h8q2 0 2 2 q0 2 -2 2z M16 10.5q-2 0-2-1v-1 q 0 -2 -2 -2 h2 q 4 0 4 2q0 2-2 2z"/>
+</svg>
+
+<canvas role="img" aria-label="It's a shitty maze with walls and piles of poo. There is an algorithm running that finds the path with the lowest cost"></canvas>
+<div id="out"></div>
+  <script  src="./script.js"></script>
+
+</body>
+</html>

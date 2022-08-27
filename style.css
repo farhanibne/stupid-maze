@@ -1,0 +1,27 @@
+body {
+  background: #222;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+canvas {
+  display: block;
+  width: var(--size, 90vmin);
+  height: var(--size, 90vmin);
+  margin: 0 auto;
+}
+
+#out {
+  position: fixed;
+  background: rgba(0,0,0, 0.5);
+  color: #fff;
+  top: 0;
+  left: 0;
+  font-family: monospace;
+}
